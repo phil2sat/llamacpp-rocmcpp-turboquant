@@ -1,3 +1,13 @@
+# llamacpp-rocm-turboquant
+<a href="https://github.com/TheTom/llama-cpp-turboquant" title="Powered by TheTom llama-cpp-turboquant">
+  <img src="https://img.shields.io/badge/🦙Powered%20TheTom llama-cpp-turboquant?logo=llama&logoColor=white" alt="TheTom llama-cpp-turboquant" />
+</a>
+
+Fork from  [**🍋 llamacpp-rocm**](https://github.com/lemonade-sdk/llamacpp-rocm) but based on [TheTom/llama-cpp-turboquant](https://github.com/TheTom/llama-cpp-turboquant) to get fresh builds for AMD ROCm boards.
+
+
+
+
 # llamacpp-rocm
 
 <a href="https://github.com/aigdat/llamacpp-rocm/releases/latest" title="Download the latest release">
