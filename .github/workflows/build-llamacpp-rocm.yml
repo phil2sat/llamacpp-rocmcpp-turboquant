@@ -9,7 +9,7 @@ on:
       gfx_target:
         description: 'AMD GPU targets (comma-separated)'
         required: false
-        default: 'gfx1151,gfx1150,gfx120X,gfx110X,gfx103X,gfx90a,gfx908'
+        default: 'gfx900'
       rocm_version:
         description: 'ROCm version to use (e.g., 7.13.0a20260318) or "latest" to auto-detect'
         required: false
