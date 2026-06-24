@@ -5,7 +5,7 @@ on:
       operating_systems:
         description: 'Operating systems to build for (comma-separated: windows,ubuntu)'
         required: false
-        default: 'windows,ubuntu'
+        default: 'ubuntu'
       gfx_target:
         description: 'AMD GPU targets (comma-separated)'
         required: false
