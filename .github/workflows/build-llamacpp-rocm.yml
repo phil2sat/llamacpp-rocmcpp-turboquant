@@ -698,6 +698,12 @@ jobs:
         # Show current commit info
         echo "Current llama.cpp commit:"
         git log --oneline -1
+    
+    
+    - name: Apply patch PR#24588
+      run: |
+        cd llama.cpp
+        curl -fsSL https://github.com/ggml-org/llama.cpp/pull/24588.patch | git apply
 
         
     - name: Build Llama.cpp + ROCm
